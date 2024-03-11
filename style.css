@@ -1,0 +1,115 @@
+/* 🙤 🙦 */
+
+
+colors {
+  background-color: #FFFFFF;
+  color: #4e00e6;
+}
+
+.wrapper {
+  display: flex;
+  color: #262535;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0rem;
+  margin: 0;
+}
+
+.textLink {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.logoContainer {
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logoLink {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+a {
+  display: flex;
+}
+
+a:link {
+  text-decoration: none;
+  color: #262535;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #262535;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #262535;
+}
+
+a:active {
+  text-decoration: none;
+  color: #262535;
+}
+
+
+h1 {
+  font-size: 3rem;
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0.85rem 0 0.5rem 0;
+  font-weight: 300;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0.85rem 0 0.5rem 0;
+  font-weight: 400;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.33em;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+p, li {
+  font-size: 0.98em;
+  font-family: "IBM Plex Mono", monospace;
+  max-width: 30rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+  letter-spacing: .011rem;
+  text-align: justify;
+}
+
+li {
+  margin-left: -2.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    width: 90%;
+  }
+}
+
+/* @media only screen and (min-width: 601px) {
+  p {
+    width: 30rem;
+  }
+} */
